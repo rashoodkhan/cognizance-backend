@@ -8,6 +8,7 @@
 
 import Foundation
 import ObjectiveGit
+import FileKit
 
 class GITRepository {
 	var repositoryName: String = "";

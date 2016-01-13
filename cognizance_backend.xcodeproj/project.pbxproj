@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0794DA1C46E0E100046DDC /* FileKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0794D91C46E0E100046DDC /* FileKit.framework */; };
 		5C8E3E171C45AB3700B3846E /* cognizance_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8E3E161C45AB3700B3846E /* cognizance_backend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C8E3E1E1C45AB3700B3846E /* cognizance_backend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E3E131C45AB3700B3846E /* cognizance_backend.framework */; };
 		5C8E3E231C45AB3700B3846E /* cognizance_backendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3E221C45AB3700B3846E /* cognizance_backendTests.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C0794D91C46E0E100046DDC /* FileKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileKit.framework; path = Carthage/Build/iOS/FileKit.framework; sourceTree = "<group>"; };
 		5C8E3E131C45AB3700B3846E /* cognizance_backend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cognizance_backend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8E3E161C45AB3700B3846E /* cognizance_backend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cognizance_backend.h; sourceTree = "<group>"; };
 		5C8E3E181C45AB3700B3846E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0794DA1C46E0E100046DDC /* FileKit.framework in Frameworks */,
 				5C8E3E321C45ACD900B3846E /* ObjectiveGit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +64,7 @@
 		5C8E3E091C45AB3700B3846E = {
 			isa = PBXGroup;
 			children = (
+				5C0794D91C46E0E100046DDC /* FileKit.framework */,
 				5C8E3E2F1C45ABC200B3846E /* ObjectiveGit.framework */,
 				5C8E3E2D1C45ABB400B3846E /* ObjectiveGit.framework */,
 				5C8E3E151C45AB3700B3846E /* cognizance_backend */,
@@ -347,6 +351,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = cognizance_backend/Info.plist;
@@ -372,6 +377,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = cognizance_backend/Info.plist;
