@@ -11,6 +11,8 @@
 		5C8E3E1E1C45AB3700B3846E /* cognizance_backend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E3E131C45AB3700B3846E /* cognizance_backend.framework */; };
 		5C8E3E231C45AB3700B3846E /* cognizance_backendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3E221C45AB3700B3846E /* cognizance_backendTests.swift */; };
 		5C8E3E321C45ACD900B3846E /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E3E2F1C45ABC200B3846E /* ObjectiveGit.framework */; };
+		5C8F1BF61C45D4DB006ED2A6 /* ObjectiveGit-BridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F1BF51C45D4DB006ED2A6 /* ObjectiveGit-BridgingHeader.m */; };
+		5C8F1BF81C45D53B006ED2A6 /* GITRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F1BF71C45D53B006ED2A6 /* GITRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		5C8E3E241C45AB3700B3846E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C8E3E2D1C45ABB400B3846E /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = Carthage/Build/iOS/ObjectiveGit.framework; sourceTree = "<group>"; };
 		5C8E3E2F1C45ABC200B3846E /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = Carthage/Build/Mac/ObjectiveGit.framework; sourceTree = "<group>"; };
+		5C8F1BF51C45D4DB006ED2A6 /* ObjectiveGit-BridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjectiveGit-BridgingHeader.m"; sourceTree = "<group>"; };
+		5C8F1BF71C45D53B006ED2A6 /* GITRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GITRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				5C8E3E161C45AB3700B3846E /* cognizance_backend.h */,
 				5C8E3E181C45AB3700B3846E /* Info.plist */,
+				5C8F1BF51C45D4DB006ED2A6 /* ObjectiveGit-BridgingHeader.m */,
+				5C8F1BF71C45D53B006ED2A6 /* GITRepository.swift */,
 			);
 			path = cognizance_backend;
 			sourceTree = "<group>";
@@ -218,6 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C8F1BF81C45D53B006ED2A6 /* GITRepository.swift in Sources */,
+				5C8F1BF61C45D4DB006ED2A6 /* ObjectiveGit-BridgingHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -346,6 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cognizance.cognizance-backend";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -353,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -413,6 +424,7 @@
 				5C8E3E291C45AB3700B3846E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C8E3E2A1C45AB3800B3846E /* Build configuration list for PBXNativeTarget "cognizance_backendTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +433,7 @@
 				5C8E3E2C1C45AB3800B3846E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
