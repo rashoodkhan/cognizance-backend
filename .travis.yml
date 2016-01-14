@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode-7.2
+xcode_project: cognizance_backend.xcodeproj
+xcode_scheme: cognizance_backend
+
