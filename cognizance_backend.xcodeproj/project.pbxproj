@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C0794DA1C46E0E100046DDC /* FileKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0794D91C46E0E100046DDC /* FileKit.framework */; };
+		5C39B6991C499407007BF86D /* EVReflection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39B6961C499407007BF86D /* EVReflection.framework */; };
+		5C39B69A1C499407007BF86D /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39B6971C499407007BF86D /* ObjectiveGit.framework */; };
+		5C39B69B1C499407007BF86D /* FileKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39B6981C499407007BF86D /* FileKit.framework */; };
+		5C39B6A21C499776007BF86D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39B6A11C499776007BF86D /* Note.swift */; };
 		5C8E3E171C45AB3700B3846E /* cognizance_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8E3E161C45AB3700B3846E /* cognizance_backend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C8E3E1E1C45AB3700B3846E /* cognizance_backend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E3E131C45AB3700B3846E /* cognizance_backend.framework */; };
 		5C8E3E231C45AB3700B3846E /* cognizance_backendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3E221C45AB3700B3846E /* cognizance_backendTests.swift */; };
-		5C8E3E321C45ACD900B3846E /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E3E2F1C45ABC200B3846E /* ObjectiveGit.framework */; };
 		5C8F1BF61C45D4DB006ED2A6 /* ObjectiveGit-BridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F1BF51C45D4DB006ED2A6 /* ObjectiveGit-BridgingHeader.m */; };
-		5C8F1BF81C45D53B006ED2A6 /* GITRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F1BF71C45D53B006ED2A6 /* GITRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +28,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C0794D91C46E0E100046DDC /* FileKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileKit.framework; path = Carthage/Build/iOS/FileKit.framework; sourceTree = "<group>"; };
+		5C39B6961C499407007BF86D /* EVReflection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EVReflection.framework; path = Carthage/Build/Mac/EVReflection.framework; sourceTree = "<group>"; };
+		5C39B6971C499407007BF86D /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = Carthage/Build/Mac/ObjectiveGit.framework; sourceTree = "<group>"; };
+		5C39B6981C499407007BF86D /* FileKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileKit.framework; path = Carthage/Build/Mac/FileKit.framework; sourceTree = "<group>"; };
+		5C39B6A11C499776007BF86D /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		5C8E3E131C45AB3700B3846E /* cognizance_backend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cognizance_backend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8E3E161C45AB3700B3846E /* cognizance_backend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cognizance_backend.h; sourceTree = "<group>"; };
 		5C8E3E181C45AB3700B3846E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C8E3E1D1C45AB3700B3846E /* cognizance_backendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cognizance_backendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8E3E221C45AB3700B3846E /* cognizance_backendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cognizance_backendTests.swift; sourceTree = "<group>"; };
 		5C8E3E241C45AB3700B3846E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C8E3E2D1C45ABB400B3846E /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = Carthage/Build/iOS/ObjectiveGit.framework; sourceTree = "<group>"; };
-		5C8E3E2F1C45ABC200B3846E /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = Carthage/Build/Mac/ObjectiveGit.framework; sourceTree = "<group>"; };
 		5C8F1BF51C45D4DB006ED2A6 /* ObjectiveGit-BridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjectiveGit-BridgingHeader.m"; sourceTree = "<group>"; };
-		5C8F1BF71C45D53B006ED2A6 /* GITRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GITRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C0794DA1C46E0E100046DDC /* FileKit.framework in Frameworks */,
-				5C8E3E321C45ACD900B3846E /* ObjectiveGit.framework in Frameworks */,
+				5C39B6991C499407007BF86D /* EVReflection.framework in Frameworks */,
+				5C39B69A1C499407007BF86D /* ObjectiveGit.framework in Frameworks */,
+				5C39B69B1C499407007BF86D /* FileKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,17 +63,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C39B6A01C499776007BF86D /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				5C39B6A11C499776007BF86D /* Note.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
 		5C8E3E091C45AB3700B3846E = {
 			isa = PBXGroup;
 			children = (
-				5C0794D91C46E0E100046DDC /* FileKit.framework */,
-				5C8E3E2F1C45ABC200B3846E /* ObjectiveGit.framework */,
-				5C8E3E2D1C45ABB400B3846E /* ObjectiveGit.framework */,
+				5C39B6961C499407007BF86D /* EVReflection.framework */,
+				5C39B6971C499407007BF86D /* ObjectiveGit.framework */,
+				5C39B6981C499407007BF86D /* FileKit.framework */,
 				5C8E3E151C45AB3700B3846E /* cognizance_backend */,
 				5C8E3E211C45AB3700B3846E /* cognizance_backendTests */,
 				5C8E3E141C45AB3700B3846E /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
 		};
 		5C8E3E141C45AB3700B3846E /* Products */ = {
 			isa = PBXGroup;
@@ -85,10 +98,10 @@
 		5C8E3E151C45AB3700B3846E /* cognizance_backend */ = {
 			isa = PBXGroup;
 			children = (
+				5C39B6A01C499776007BF86D /* Note */,
 				5C8E3E161C45AB3700B3846E /* cognizance_backend.h */,
 				5C8E3E181C45AB3700B3846E /* Info.plist */,
 				5C8F1BF51C45D4DB006ED2A6 /* ObjectiveGit-BridgingHeader.m */,
-				5C8F1BF71C45D53B006ED2A6 /* GITRepository.swift */,
 			);
 			path = cognizance_backend;
 			sourceTree = "<group>";
@@ -228,8 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C8F1BF81C45D53B006ED2A6 /* GITRepository.swift in Sources */,
 				5C8F1BF61C45D4DB006ED2A6 /* ObjectiveGit-BridgingHeader.m in Sources */,
+				5C39B6A21C499776007BF86D /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +305,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos9.2;
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -332,7 +346,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos9.2;
+				SUPPORTED_PLATFORMS = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -359,6 +374,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cognizance.cognizance-backend";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.2;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -385,6 +401,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cognizance.cognizance-backend";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.2;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -397,6 +414,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cognizance.cognizance-backendTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.2;
 			};
 			name = Debug;
 		};
@@ -408,6 +426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cognizance.cognizance-backendTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.2;
 			};
 			name = Release;
 		};

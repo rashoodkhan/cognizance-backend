@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <ObjectiveGit/ObjectiveGit.h>
 
 //! Project version number for cognizance_backend.
 FOUNDATION_EXPORT double cognizance_backendVersionNumber;

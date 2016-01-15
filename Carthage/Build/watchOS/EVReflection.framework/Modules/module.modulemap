@@ -1,0 +1,3 @@
+framework module EVReflection {
+    header "EVReflection-Swift.h"
+}
